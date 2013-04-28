@@ -1,0 +1,73 @@
+# coding: utf-8
+'''
+Created on 27. apr. 2013
+
+@author: H�kon
+'''
+from rater import  Rater
+
+r = Rater();
+r.add("TIØ4120 Operasjonsanalyse, grunnkurs")
+r.add("TIØ4230 Entreprenørskap og markedsorientert produktutvikling")
+r.add("TIØ5200 Prosjektorganisasjoner")
+r.add("TIØ4146 Finans for teknisk-naturvitenskapelige studenter")
+r.add("TMM4225 Ingeniørrettet samhandling i distribuerte team: Ledelse og smart bruk")
+r.add("TPD4142 Design Thinking")
+r.add("TTM4165 IKT, organisasjon og marked")
+r.add("TDT4125 Algoritmekonstruksjon, videregående kurs")
+r.add("TDT4171 Metoder i kunstig intelligens")
+r.add("TDT4175 Informasjonssystemer")
+r.add("TDT4190 Distribuerte systemer")
+r.add("TDT4220 Ytelsesvurdering av datasystemer")
+r.add("TDT4242 Kravspesifikasjon og testing")
+r.add("TDT4300 Datavarehus og datagruvedrift")
+r.add("TIØ4258 Teknologiledelse")
+r.add("TDT4117 Informasjonsgjenfinning")
+r.add("TDT4136 Logikk og resonnerende systemer")
+r.add("TDT4186 Operativsystemer")
+r.add("TDT4125 Algoritmekonstruksjon, videregående kurs")
+r.add("TDT4171 Metoder i kunstig intelligens")
+r.add("TDT4175 Informasjonssystemer")
+r.add("TDT4190 Distribuerte systemer")
+r.add("TDT4220 Ytelsesvurdering av datasystemer")
+r.add("TDT4195 Grunnleggende visuell databehandling")
+r.add("TDT4205 Kompilatorteknikk")
+r.add("TDT4240 Programvarearkitektur")
+r.add("TDT4165 Programmeringsspråk")
+r.add("TDT4258 Energieffektive datamaskinsystemer")
+r.add("TDT4230 Grafikk og visualisering")
+r.add("TMA4105 Matematikk 2")
+r.add("TMA4280 Superdatamaskiner, innføring i bruk")
+r.add("TTT4110 Signalbehandling og kommunikasjon")
+r.add("IT3708 Sub-symbolske AI-metoder")
+r.add("MOL4010 Molekylærbiologi for teknologer")
+"""
+
+r.add("TDT4225 Behandling av store datamengder")
+r.add("TDT4150 Avanserte databasesystemer")
+r.add("TDT4290 Kundestyrt prosjekt")
+r.add("TDT4200 Parallelle beregninger")
+r.add("TDT4210 Helseinformatikk")
+r.add("TDT4237 Programvaresikkerhet")
+r.add("TDT4245 Samhandlingsteknologi")
+r.add("TDT4287 Algoritmer for bioinformatikk")
+r.add("IT3105 Kunstig intelligens programmering")
+r.add("TDT4215 Web-intelligens")
+r.add("TDT4252 Modellering av informasjonssystemer, videregående kurs")
+r.add("IT3803 Digitale bibliotek")
+r.add("Eksperter i Team")
+r.add("TDT4173 Maskinlæring og case-basert resonnering")
+r.add("TIØ4120 Operasjonsanalyse, grunnkurs")
+r.add("TIØ4120 Operasjonsanalyse, grunnkurs")
+r.add("TIØ4120 Operasjonsanalyse, grunnkurs")
+r.add("TIØ4120 Operasjonsanalyse, grunnkurs")
+r.add("TIØ4120 Operasjonsanalyse, grunnkurs")
+r.add("TIØ4120 Operasjonsanalyse, grunnkurs")
+r.add("TIØ4120 Operasjonsanalyse, grunnkurs")
+r.add("TIØ4120 Operasjonsanalyse, grunnkurs")
+r.add("TIØ4120 Operasjonsanalyse, grunnkurs")
+r.add("TIØ4120 Operasjonsanalyse, grunnkurs")
+r.add("TIØ4120 Operasjonsanalyse, grunnkurs")
+r.add("TIØ4120 Operasjonsanalyse, grunnkurs")
+"""
+r.save("fag.json");
